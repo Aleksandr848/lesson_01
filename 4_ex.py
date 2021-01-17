@@ -1,6 +1,6 @@
 number = input('Введите целое положительное число: ')
 while len(number) < 2:
-    number = input('Введите число больше или равно 10: ')
+    number = input('Не придуривайтесь, введите число больше или равно 10: ')
 int_number = int(number)
 max_numeral = 0 # Присваиваем для начала максимальной цифре значение 0
 while int_number > 0:
